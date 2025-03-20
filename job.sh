@@ -15,8 +15,8 @@ module load NLopt/2.7.1-foss-2022b-Python
 module load mpi4py/3.1.4-gompi-2022b
 module load Gdspy/1.6.13-foss-2022b
 
-#for i in {3..8}:
-#do
-mpirun -n 80 python3 3freq.py "2" 
+for i in {3..8}:
+do
+mpirun -n 80 python3 optimisation.py "$i" 
 
-#done
+done
