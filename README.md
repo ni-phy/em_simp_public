@@ -1,6 +1,8 @@
 # em_simp_public
 Electromagnetic and structural optimisation framework
 
+Aim: Create a topology optimisation framework that creates multiconnected designs (i.e. suitable for 3D printing). The designs are fully connected and allow for the formation of internal cavities (unlike other commonly used connectivity frameworks). The use of SIMP also ensure the designs can withstand external applied forces.
+
 Developed as part of the PhD in Electrical Engineering degree
 
 Publications from this project:
